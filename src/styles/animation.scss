@@ -1,0 +1,104 @@
+@keyframes iconFloat {
+  from {
+    top: 19%;
+  }
+  to {
+    top: 21%;
+  }
+}
+
+@keyframes enlargeGit {
+  from {
+    left: 0px;
+    transform: scale(0, 0);
+  }
+  to {
+    left: 20px;
+    transform: scale(1, 1);
+  }
+}
+@keyframes enlargeLinkedin {
+  from {
+    left: 20px;
+    transform: scale(0, 0);
+  }
+  to {
+    left: 100px;
+    transform: scale(1, 1);
+  }
+}
+@keyframes enlargeResume {
+  from {
+    left: 100px;
+    transform: scale(0, 0);
+  }
+  to {
+    left: 180px;
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes showBreadCrumbBackground {
+  from {
+    visibility: hidden;
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes showIntroBorder {
+  from {
+    visibility: hidden;
+    width: 0%;
+    min-width: 0px;
+    max-height: 250px;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    width: 70%;
+    min-width: 300px;
+    max-height: 250px;
+    opacity: 1;
+  }
+}
+
+@keyframes showIntroText {
+  from {
+    visibility: hidden;
+    opacity: 0;
+    font-size: 0vw;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+    font-size: 4vw;
+  }
+}
+
+@keyframes showWebTechImage {
+  from {
+    visibility: hidden;
+    opacity: 0;
+    right: 50px;
+  }
+  to {
+    visibility: visible;
+    opacity: 0.8;
+    right: 0px;
+  }
+}
+
+@keyframes arrowsDownAnimation {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
